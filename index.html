@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a Random Password</h1>
+      <input type="checkbox" id="selectAll" checked />
+      <label for="selectAll">Select all</label><br />
+      <input type="checkbox" id="lowercase" />
+      <label for="lowercase">Include lowercase characters.</label> <br />
+      <input type="checkbox" id="uppercase" />
+      <label for="uppercase">Include uppercase characters.</label><br />
+      <input type="checkbox" id="numbers" />
+      <label for="numbers">Include numbers.</label><br />
+      <input type="checkbox" id="symbols" />
+      <label for="symbols">Include symbols.</label><br />
+      <label for="length">Password Length:</label>
+      <input type="number" id="length" value="4" min="4" max="40" /><br />
+      <button type="submit" id="generateBtn">Generate</button>
+      <p id="generatedPass"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
