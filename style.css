@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(135deg, #6ee7b7, #3b82f6);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+.container {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#generatedPass {
+  transition: all 0.3s ease;
+}
+#generatedPass:hover {
+  transform: scale(1.05);
+}
+button:hover {
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
